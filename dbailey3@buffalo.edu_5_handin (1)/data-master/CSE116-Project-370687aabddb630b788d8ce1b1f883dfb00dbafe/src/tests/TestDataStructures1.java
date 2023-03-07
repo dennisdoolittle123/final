@@ -89,7 +89,6 @@ public class TestDataStructures1 {
         LinkedListNode<Rating> computed = song.getRatings();
         checkRatingsList(computed, expected);
     }
-
     @Test
     public void testAverageRatings() {
         Song song = new Song("Counting Stars", "OneRepublic", "hT_nvWreIhg");
